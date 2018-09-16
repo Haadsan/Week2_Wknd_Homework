@@ -3,7 +3,7 @@ require_relative("../room.rb")
 require_relative("../guest.rb")
 require_relative("../song.rb")
 
-class TestRoom <MiniTest::Test
+class TestRoom < MiniTest::Test
 
   def setup()
     @song1 = Song.new("Is This Love", "Bob Marley")

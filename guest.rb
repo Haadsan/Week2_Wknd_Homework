@@ -10,11 +10,11 @@ class Guest
   end
 
   def guest_name(guest)
-    return guest.name
+    return @name
   end
 
 def guest_wallet_value(guest)
-  return guest.wallet
+  return @wallet
 end
 
 end

@@ -17,4 +17,5 @@ def guest_wallet_value(guest)
   return @wallet
 end
 
+
 end

@@ -13,11 +13,11 @@ class SongTest < MiniTest::Test
 
 
 def test_song_title()
-  assert_equal("Is This Love", @song.song_name)
+  assert_equal("Is This Love", @song1.song_name)
 end
 
 def test_song_artist()
-  assert_equal("Bob Marley", @song.artist)
+  assert_equal("Bob Marley", @song1.artist)
 end
 
 end

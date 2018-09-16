@@ -15,11 +15,11 @@ end
 
 
 def test_guest_name()
-  assert_equal("Hadsan Geele", @guest.name)
+  assert_equal("Hadsan", @guest1.name)
 end
 
 def test_guest_wallet_value()
-  assert_equal(500, @guest.wallet)
+  assert_equal(500, @guest1.wallet)
 end
 
 

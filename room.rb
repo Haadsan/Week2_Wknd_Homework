@@ -7,5 +7,7 @@ attr_reader :songs
     @guests = []
   end
 
-def check_guest_in(new_guest)
-  @guests
+# def check_guest_in(new_guest)
+#   @guests
+
+end

@@ -22,11 +22,11 @@ class TestRoom <MiniTest::Test
 
     @room = Room.new(@songs, @guests)
 
-
-end
-
 # Guest check-in/out
 
 def test_check_guest_in()
   assert_equal("Tina", @room.check_guest_in(guest2))
+end
+
+
 end

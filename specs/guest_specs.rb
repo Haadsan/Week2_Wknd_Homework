@@ -1,6 +1,6 @@
 
 require("minitest/autorun")
-require_relative("../guests.rb")
+require_relative("../guest.rb")
 
 
 
@@ -13,7 +13,6 @@ def setup
   @guest4 = Guest.new("Maria" ,300)
 end
 
-end
 
 def test_guest_name()
   assert_equal("Hadsan Geele", @guest.name)
@@ -21,4 +20,7 @@ end
 
 def test_wallet_value()
   assert_equal(500, @guest.wallet)
+end
+
+
 end

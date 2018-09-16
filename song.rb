@@ -7,4 +7,5 @@ class Songs
     @artist = artist
   end
 
+
 end

@@ -8,4 +8,13 @@ class Guest
     @wallet = wallet
 
   end
+
+  def guest_name(guest)
+    return guest.name
+  end
+
+def guest_wallet_value(guest)
+  return guest.wallet
+end
+
 end

@@ -7,7 +7,9 @@ attr_reader :songs
     @guests = []
   end
 
-# def check_guest_in(new_guest)
-#   @guests
+def check_guest_in(new_guest)
+  @guests.push(new_guest)
+  return "#{new_guest.name} is checked in"
+end
 
 end
